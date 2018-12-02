@@ -1,0 +1,27 @@
+/*
+Font: 		Calps Sans Light
+Style: 		Regular
+URL: 		https://www.youworkforthem.com/font/T9709/calps-sans
+Foundry: 	Typesketchbook
+Foundry: 	https://www.youworkforthem.com/designer/382/typesketchbook
+Copyright:	Copyright (c) 2018 by Typesketchbook. All rights reserved.
+Version: 	17
+Created:	August 02, 2018
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'CalpsSans-Light';
+	src: url('calps-sans-light.eot');
+	src: url('calps-sans-light.eot?#iefix') format('embedded-opentype'),
+             url('calps-sans-light.woff2') format('woff2'),
+	     url('calps-sans-light.woff') format('woff'),
+	     url('calps-sans-light.ttf') format('truetype'),
+	     url('calps-sans-light.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

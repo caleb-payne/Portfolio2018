@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	
+	<head>
+        <!-- HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD -->
+        <!-- ********************************************* -->
+        
+		<title>Caleb Payne</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="js/jquery.min.js"></script>
+        
+        <script type="text/javascript" src="js/lottie.js"></script>
+        
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+        <!-- FONTS AND ICONS -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        
+		<link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        
+        
+        <style>
+            
+            #ca-loader {
+                
+                display: none;
+                width: 120px;
+                height: 120px;
+                margin: 50% auto;
+                position: absolute;
+                text-align: center;
+                z-index: -5000;  
+            }
+            
+            #ca-loader > div {
+                border: 2px solid #d3d3d3;
+                border-radius: 50%;
+                border-top: 2px solid #242424;
+                margin: auto;
+                width: 40px;
+                height: 40px;
+                -webkit-animation: spin 600ms linear infinite; /* Safari */
+                animation: spin 600ms linear infinite;
+            }
+
+            /* Safari */
+            @-webkit-keyframes spin {
+                0% { -webkit-transform: rotate(0deg); }
+                100% { -webkit-transform: rotate(360deg); }
+            }
+
+            @keyframes spin {
+                0% { -webkit-transform: rotate(0deg); }
+                100% { -webkit-transform: rotate(360deg); }
+            }
+            
+        </style>
+        
+        
+    <!-- *********************************************** -->
+    <!-- /HEAD /HEAD /HEAD /HEAD /HEAD /HEAD /HEAD /HEAD -->
+	</head>
+    
+    
+    
+    
+    <body>
+    <!-- BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY -->
+    <!-- *********************************************** -->
+    
+        
+        <!-- GLOBAL MENU -->
+        
+        <div id="global-menu" class="thicc">
+        
+            <div id="gm-top">
+                
+                <a href="./pages/home.html" id="logo-box">
+                    <div id="left-C"></div>
+                    <div id="right-P"></div>
+                </a>
+                
+            </div>
+        
+            <ul id="gm-nav-links"> 
+                
+                <li>
+                    <div class="gm-btn gm-active" data-btn-name="work">
+                        <i class="close-x">&times;</i>
+                        <span>WORK</span>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="gm-btn" data-btn-name="about">
+                        <i class="close-x">&times;</i>
+                        <span>ABOUT</span>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="gm-btn" data-btn-name="contact">
+                        <i class="close-x">&times;</i>
+                        <span>CONTACT</span>
+                    </div>
+                </li>
+                
+            </ul>
+        
+        </div>
+        
+   
+        
+        <!-- LOCAL MENU -->
+        
+        <div id="local-menu-frame" class="lm-expanded">
+            <div id="local-menu-insert">
+                
+                <!-- WORK -->
+                <div id="lm-work" class="lm-list lm-current">
+                    <i class="lm-line-boi"></i>
+                    <h2 class="lm-title">WORK</h2>
+                    
+                    
+                    <ul id="lm-project-list">
+                        
+                        
+                        <li class="lm-item">
+                            <div class="proj-img" style="background-image: url(./assets/thumbs/thumb_sydor-fccd.png)"></div> 
+                            <a class="proj-anchor" href="./pages/sydor-fast-ccd.html">
+                            <h5 class="proj-name">Sydor Fast CCD</h5>
+                            <ul class="proj-tags">
+                            <li>Motion</li>
+                            <li>Marketing</li>
+                            </ul>
+                            </a>  
+                        </li>
+                        
+                        <li class="lm-item">
+                            <div class="proj-img" style="background-image: url(./assets/thumbs/thumb_ollie-pet.png)"></div> 
+                            <a class="proj-anchor" href="./pages/ollie-pet-food.html">
+                            <h5 class="proj-name">Ollie Pet Food</h5>
+                            <ul class="proj-tags">
+                            <li>Social Media</li>
+                            <li>Dogs</li>
+                            </ul>
+                            </a>  
+                        </li>
+                        
+                        <li class="lm-item">
+                            <div class="proj-img" style="background-image: url(./assets/thumbs/thumb_mps-anything.png)"></div> 
+                            <a class="proj-anchor" href="./pages/mps-anything-everything.html">
+                            <h5 class="proj-name">MPS – Anything &amp; Everything</h5>
+                            <ul class="proj-tags">
+                            <li>Motion</li>
+                            <li>Marketing</li>
+                            </ul>
+                            </a>  
+                        </li>
+                        
+                        <li class="lm-item">
+                            <div class="proj-img" style="background-image: url(./assets/thumbs/thumb_opia.png)"></div> 
+                            <a class="proj-anchor" href="./pages/opia-title-sequence.html">
+                            <h5 class="proj-name">Opia – Title Sequence</h5>
+                            <ul class="proj-tags">
+                            <li>Motion</li>
+                            <li>Title Sequence</li>
+                            <li>Art</li>
+                            </ul>
+                            </a>  
+                        </li>
+                        
+                        <li class="lm-item">
+                            <div class="proj-img" style="background-image: url(./assets/thumbs/thumb_printbed.png)"></div> 
+                            <a class="proj-anchor" href="./pages/printbed.html">
+                            <h5 class="proj-name">Printbed</h5>
+                            <ul class="proj-tags">
+                            <li>UX / UI</li>
+                            <li>Motion</li>
+                            </ul>
+                            </a>  
+                        </li>
+                        
+                        <li class="lm-item">
+                            <div class="proj-img" style="background-image: url(./assets/thumbs/thumb_abc-news.png)"></div> 
+                            <a class="proj-anchor" href="./pages/abc-news-promos.html">
+                            <h5 class="proj-name">ABC News Promos</h5>
+                            <ul class="proj-tags">
+                            <li>Motion</li>
+                            <li>Broadcast TV</li>
+                            <li>Coding</li>
+                            </ul>
+                            </a>  
+                        </li>
+                        
+                       
+                        <!-- Add more projects to the list later -->
+       
+                    </ul>
+                    
+                    
+                </div>
+                
+                
+                
+                
+                <!-- ABOUT -->
+                <div id="lm-about" class="lm-list">
+                    <i class="lm-line-boi"></i>
+                    <h2 class="lm-title">ABOUT</h2>
+                    
+                    
+                    <div class="orange-whip"></div>
+                    
+                    <p class="lm-body-copy">My name is Caleb Payne.</p>
+                    
+                    <p class="lm-body-copy">I'm an interdisciplinary designer with a taste for emotional, interactive experiences.
+                    </p>
+                    
+                    <p class="lm-body-copy">I am based in Brooklyn, New York.</p>                 
+                    
+                    
+                </div>
+                
+                
+                <!-- CONTACT -->
+                <div id="lm-contact" class="lm-list">
+                    <i class="lm-line-boi"></i>
+                    <h2 class="lm-title">CONTACT</h2>
+                     
+                    <p class="lm-body-copy">Do you have a design gig with my name on it? Feel like collaborating on some art? Just want to grab a beer, shoot some pool, and discuss the extent to which Netflix's Black Mirror has itself become some sort of meta, dark UX pattern?</p>
+                    
+                    <p class="lm-body-copy">Get in touch.</p>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        
+        <!-- CONTENT AREA -->
+        
+        <div class="special-menu">
+             <i class="back-to-top">&#8676;</i>
+        </div>
+        
+        <div id="content-area" class="ca-narrow">   
+            <div id="ca-loader"><div></div></div>
+             
+            <!-- THIS IS WHERE THE MAGIC HAPPENS -->
+            <div id="content-shell"></div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <!-- INSERT THOS TASTY SCRIPTS HERE -->
+        
+        <script type="text/javascript" src="js/behaviour.js"></script>
+     
+    
+        
+    
+    <!-- ********************************************* -->
+    <!-- BODY BODY BODY BODY BODY BODY BODY BODY BODY -->
+    </body>
+    
+    
+    
+    
+</html>
